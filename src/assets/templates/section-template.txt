@@ -1,5 +1,5 @@
 <section class="px-gutter py-section-default">
-  <div class="max-w-container-default">
+  <div class="max-w-container-default mx-auto">
     {# ===================================================================== #}
     {#                           Content Goes Here                           #}
     {# ===================================================================== #}
