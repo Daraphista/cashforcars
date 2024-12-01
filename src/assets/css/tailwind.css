@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Batangas";
+    font-style: bold;
+    font-weight: 700;
+    font-display: swap;
+    src: url(/fonts/Batangas-Bold.ttf) format("ttf");
+  }
+
+  @font-face {
+    font-family: "DM Sans";
+    font-style: regular;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/fonts/DMSans-Regular.ttf) format("ttf");
+  }
+
+  @font-face {
+    font-family: "DM Sans";
+    font-style: Bold;
+    font-weight: 700;
+    font-display: swap;
+    src: url(/fonts/DMSans-Bold.ttf) format("ttf");
+  }
+}
