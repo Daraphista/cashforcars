@@ -1,0 +1,7 @@
+<section class="px-gutter py-section-default">
+  <div class="max-w-container-default">
+    {# ===================================================================== #}
+    {#                           Content Goes Here                           #}
+    {# ===================================================================== #}
+  </div>
+</section>
