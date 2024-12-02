@@ -2,11 +2,11 @@
 module.exports = {
   content: ["./src/**/*.html"],
   theme: {
-    fontFamily: {
-      heading: ["Batangas", "serif"],
-      body: ["DM Sans", "sans-serif"],
-    },
     extend: {
+      fontFamily: {
+      heading: ["Batangas", "serif"],
+      "body": ['"DM Sans"', "sans-serif"],
+    },
       padding: {
         gutter: "5%",
         "section-default": "2.5rem",

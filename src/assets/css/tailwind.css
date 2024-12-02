@@ -8,22 +8,31 @@
     font-style: bold;
     font-weight: 700;
     font-display: swap;
-    src: url(/fonts/Batangas-Bold.ttf) format("ttf");
+    src: url("assets/fonts/Batangas-Bold.ttf") format("ttf");
   }
 
+  /* dm-sans-regular - latin */
   @font-face {
-    font-family: "DM Sans";
-    font-style: regular;
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'DM Sans';
+    font-style: normal;
     font-weight: 400;
-    font-display: swap;
-    src: url(/fonts/DMSans-Regular.ttf) format("ttf");
+    src: url('/assets/fonts/dm-sans-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
-
+  /* dm-sans-italic - latin */
   @font-face {
-    font-family: "DM Sans";
-    font-style: Bold;
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'DM Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url('/assets/fonts/dm-sans-v15-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* dm-sans-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'DM Sans';
+    font-style: normal;
     font-weight: 700;
-    font-display: swap;
-    src: url(/fonts/DMSans-Bold.ttf) format("ttf");
+    src: url('/assets/fonts/dm-sans-v15-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
 }
