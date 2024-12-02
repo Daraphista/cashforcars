@@ -2,32 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-html, :host {
-  line-height: 1;
-}
-
 @layer components {
   .button {
     @apply bg-primary text-light p-4 rounded-lg block font-semibold transition-colors hover:bg-light hover:text-primary;
   }
 
   .text-h1 {
-    @apply font-heading font-bold text-4xl;
+    @apply font-heading font-bold text-5xl;
   }
   .text-h2 {
-    @apply font-heading font-bold text-3xl;
+    @apply font-heading font-bold text-4xl;
   }
   .text-h3 {
-    @apply font-heading font-bold text-2xl;
+    @apply font-heading font-bold text-3xl;
   }
   .text-h4 {
-    @apply font-heading font-bold text-xl;
+    @apply font-heading font-bold text-2xl;
   }
   .text-h5 {
-    @apply font-heading font-bold text-lg;
+    @apply font-heading font-bold text-xl;
   }
   .text-h6 {
-    @apply font-heading font-bold text-base;
+    @apply font-heading font-bold text-lg;
   }
 }
 
