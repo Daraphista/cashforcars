@@ -10,6 +10,25 @@ html, :host {
   .button {
     @apply bg-primary text-light p-4 rounded-lg block font-semibold transition-colors hover:bg-light hover:text-primary;
   }
+
+  .text-h1 {
+    @apply font-heading font-bold text-4xl;
+  }
+  .text-h2 {
+    @apply font-heading font-bold text-3xl;
+  }
+  .text-h3 {
+    @apply font-heading font-bold text-2xl;
+  }
+  .text-h4 {
+    @apply font-heading font-bold text-xl;
+  }
+  .text-h5 {
+    @apply font-heading font-bold text-lg;
+  }
+  .text-h6 {
+    @apply font-heading font-bold text-base;
+  }
 }
 
 @layer base {
