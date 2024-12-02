@@ -7,13 +7,6 @@ module.exports = {
       heading: ["Batangas", "serif"],
       "body": ['"DM Sans"', "sans-serif"],
     },
-      padding: {
-        gutter: "5%",
-        "section-default": "4rem",
-      },
-      maxWidth: {
-        "container-default": "1024px",
-      },
       colors: {
       primary: "#D62727",
       dark: "#003049",
