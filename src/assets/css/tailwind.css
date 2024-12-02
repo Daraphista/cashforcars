@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .button {
+    @apply bg-primary text-light p-4 rounded-lg block font-semibold;
+  }
+}
+
 @layer base {
   @font-face {
     font-family: "Batangas";
