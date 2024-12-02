@@ -14,6 +14,11 @@ module.exports = {
       maxWidth: {
         "container-default": "1024px",
       },
+      colors: {
+      primary: "#D62727",
+      dark: "#003049",
+      light: "#FDF0D5"
+      },
     },
   },
   plugins: [],
