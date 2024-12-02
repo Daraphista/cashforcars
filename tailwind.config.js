@@ -9,7 +9,7 @@ module.exports = {
     },
       padding: {
         gutter: "5%",
-        "section-default": "2.5rem",
+        "section-default": "4rem",
       },
       maxWidth: {
         "container-default": "1024px",
