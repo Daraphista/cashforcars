@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html, :host {
+  line-height: 1;
+}
+
 @layer components {
   .button {
     @apply bg-primary text-light p-4 rounded-lg block font-semibold transition-colors hover:bg-light hover:text-primary;
