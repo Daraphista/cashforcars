@@ -4,11 +4,11 @@
   <section class="px-gutter py-section-default">
     <div class="max-w-container-default mx-auto">
       {# Text #}
-      <div class="md:items-center md:text-center relative z-10 flex flex-col gap-4">
+      <div class="lg:items-center lg:text-center relative z-10 flex flex-col gap-4">
         <h2 class="text-h2">
           Text, Centered
         </h2>
-        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, mollitia. Perspiciatis reprehenderit quam excepturi vero, voluptatum alias nulla esse magni quos sit ducimus quia ea sequi soluta quidem libero. Aliquam.</p>
+        <p class="max-w-prose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, mollitia. Perspiciatis reprehenderit quam excepturi vero, voluptatum alias nulla esse magni quos sit ducimus quia ea sequi soluta quidem libero. Aliquam.</p>
 
         <div class="flex gap-4 mt-4">
           <a href="/contact" class="button">Get Started</a>
@@ -32,13 +32,81 @@
       </div>
 
       {# Text #}
-      <div class="lg:items-start md:text-center lg:text-start flex flex-col items-center gap-4">
+      <div class="flex flex-col gap-4">
         <h2 class="text-h2">Image + Text, Columned</h2>
-        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, mollitia. Perspiciatis reprehenderit quam excepturi vero, voluptatum alias nulla esse magni quos sit ducimus quia ea sequi soluta quidem libero. Aliquam.</p>
+        <p class="max-w-prose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, mollitia. Perspiciatis reprehenderit quam excepturi vero, voluptatum alias nulla esse magni quos sit ducimus quia ea sequi soluta quidem libero. Aliquam.</p>
 
         <div class="flex gap-4 mt-4">
           <a href="/contact" class="button">Get Started</a>
           <a href="/about" class="button">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {# ===================================================================== #}
+  {#                     Text + Three Cards, Centered                      #}
+  {# ===================================================================== #}
+  <section class="px-gutter py-section-default">
+    <div class="max-w-container-default gap-y-6 gap-x-16 flex flex-col mx-auto">
+      {# Text #}
+      <div class="lg:items-center lg:text-center flex flex-col gap-4">
+        <h2 class="text-h2">Image + Text, Columned</h2>
+        <p class="max-w-prose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, mollitia. Perspiciatis reprehenderit quam excepturi vero, voluptatum alias nulla esse magni quos sit ducimus quia ea sequi soluta quidem libero. Aliquam.</p>
+
+        <div class="flex gap-4 mt-4">
+          <a href="/contact" class="button">Get Started</a>
+          <a href="/about" class="button">Learn More</a>
+        </div>
+      </div>
+
+      {# Cards #}
+      <div class="lg:grid-cols-3 md:grid-cols-2 grid gap-4">
+        <div class="flex flex-col gap-2 p-4 bg-gray-200 rounded-lg">
+          <h3 class="text-h3">Card Heading</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, exercitationem?</p>
+        </div>
+        <div class="flex flex-col gap-2 p-4 bg-gray-200 rounded-lg">
+          <h3 class="text-h3">Card Heading</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, exercitationem?</p>
+        </div>
+        <div class="flex flex-col gap-2 p-4 bg-gray-200 rounded-lg">
+          <h3 class="text-h3">Card Heading</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, exercitationem?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {# ===================================================================== #}
+  {#                     Text + Three Blurbs, Centered                     #}
+  {# ===================================================================== #}
+  <section class="px-gutter py-section-default">
+    <div class="max-w-container-default gap-y-6 gap-x-16 flex flex-col mx-auto">
+      {# Text #}
+      <div class="lg:items-center lg:text-center flex flex-col gap-4">
+        <h2 class="text-h2">Image + Text, Columned</h2>
+        <p class="max-w-prose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, mollitia. Perspiciatis reprehenderit quam excepturi vero, voluptatum alias nulla esse magni quos sit ducimus quia ea sequi soluta quidem libero. Aliquam.</p>
+
+        <div class="flex gap-4 mt-4">
+          <a href="/contact" class="button">Get Started</a>
+          <a href="/about" class="button">Learn More</a>
+        </div>
+      </div>
+
+      {# Cards #}
+      <div class="lg:grid-cols-3 md:grid-cols-2 grid gap-4">
+        <div class="flex flex-col gap-2">
+          <h3 class="text-h3">Card Heading</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, exercitationem?</p>
+        </div>
+        <div class="flex flex-col gap-2">
+          <h3 class="text-h3">Card Heading</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, exercitationem?</p>
+        </div>
+        <div class="flex flex-col gap-2">
+          <h3 class="text-h3">Card Heading</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, exercitationem?</p>
         </div>
       </div>
     </div>
