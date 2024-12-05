@@ -51,7 +51,7 @@
     <div class="max-w-container-default gap-y-8 gap-x-16 flex flex-col mx-auto">
       {# Text #}
       <div class="lg:items-center lg:text-center flex flex-col gap-4">
-        <h2 class="text-h2">Image + Text, Columned</h2>
+        <h2 class="text-h2">Text + Three Cards, Centered</h2>
         <p class="max-w-prose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, mollitia. Perspiciatis reprehenderit quam excepturi vero, voluptatum alias nulla esse magni quos sit ducimus quia ea sequi soluta quidem libero. Aliquam.</p>
       </div>
 
@@ -80,7 +80,7 @@
     <div class="max-w-container-default gap-y-8 gap-x-16 flex flex-col mx-auto">
       {# Text #}
       <div class="lg:items-center lg:text-center flex flex-col gap-4">
-        <h2 class="text-h2">Image + Text, Columned</h2>
+        <h2 class="text-h2">Text + Three Blurbs, Centered</h2>
         <p class="max-w-prose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, mollitia. Perspiciatis reprehenderit quam excepturi vero, voluptatum alias nulla esse magni quos sit ducimus quia ea sequi soluta quidem libero. Aliquam.</p>
       </div>
 
@@ -109,7 +109,7 @@
     <div class="max-w-container-default gap-y-8 gap-x-16 flex flex-col mx-auto">
       {# Text #}
       <div class="lg:items-center lg:text-center flex flex-col gap-4">
-        <h2 class="text-h2">Image + Text, Columned</h2>
+        <h2 class="text-h2">Text + Two Cards, Centered</h2>
         <p class="max-w-prose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, mollitia. Perspiciatis reprehenderit quam excepturi vero, voluptatum alias nulla esse magni quos sit ducimus quia ea sequi soluta quidem libero. Aliquam.</p>
       </div>
 
@@ -134,7 +134,7 @@
     <div class="max-w-container-default gap-y-8 gap-x-16 flex flex-col mx-auto">
       {# Text #}
       <div class="lg:items-center lg:text-center flex flex-col gap-4">
-        <h2 class="text-h2">Image + Text, Columned</h2>
+        <h2 class="text-h2">Text + Two Blurbs, Centered</h2>
         <p class="max-w-prose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, mollitia. Perspiciatis reprehenderit quam excepturi vero, voluptatum alias nulla esse magni quos sit ducimus quia ea sequi soluta quidem libero. Aliquam.</p>
       </div>
 
