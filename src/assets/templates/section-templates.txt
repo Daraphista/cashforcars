@@ -19,6 +19,32 @@
   </section>
 
   {# ===================================================================== #}
+  {#                        Image + Text, Columned                        #}
+  {# ===================================================================== #}
+  <section class="px-gutter py-section-default">
+    <div class="max-w-container-default lg:grid-cols-2 gap-y-6 gap-x-16 grid mx-auto">
+      {# Image #}
+      <div>
+        <picture>
+          <source media="(min-width: 601px)" srcset="">
+          <img src="" width="" height="" alt="">
+        </picture>
+      </div>
+
+      {# Text #}
+      <div class="flex flex-col gap-4">
+        <h2 class="text-h2">Image + Text, Columned</h2>
+        <p>Every detail is hard-coded to ensure top performance and compliance with Google's Webmaster Guidelines, driving more visitors to your site and more revenue to your firm. All edits are done for you and support is provided 24/7.</p>
+
+        <div class="flex gap-4 mt-4">
+          <a href="/contact" class="button">Get Started</a>
+          <a href="/about" class="button">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {# ===================================================================== #}
   {#                             Blank Section                             #}
   {# ===================================================================== #}
   <section class="px-gutter py-section-default">
