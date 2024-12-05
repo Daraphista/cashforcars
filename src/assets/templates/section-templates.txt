@@ -1,11 +1,3 @@
-<section class="px-gutter py-section-default">
-  <div class="max-w-container-default mx-auto">
-    {# ===================================================================== #}
-    {#                           Content Goes Here                           #}
-    {# ===================================================================== #}
-  </div>
-</section>
-
   {# ===================================================================== #}
   {#                             Text, Centered                            #}
   {# ===================================================================== #}
@@ -23,5 +15,13 @@
           <a href="/about" class="button">Learn More</a>
         </div>
       </div>
+    </div>
+  </section>
+
+  {# ===================================================================== #}
+  {#                             Blank Section                             #}
+  {# ===================================================================== #}
+  <section class="px-gutter py-section-default">
+    <div class="max-w-container-default mx-auto">
     </div>
   </section>
