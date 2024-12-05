@@ -74,9 +74,11 @@ eleventyNavigation:
   {# ===================================================================== #}
   {#                              Hero Section                             #}
   {# ===================================================================== #}
-  <section class="px-gutter py-section-default">
+  <section class="px-gutter py-section-default text-light relative">
     <div class="max-w-container-default mx-auto">
-      <div class="flex flex-col w-1/2 gap-4">
+
+      {# Text #}
+      <div class="relative z-10 flex flex-col w-1/2 gap-4">
         <h1 class="font-heading text-4xl">
           Unbeatable Websites for Law Firms
         </h1>
@@ -90,324 +92,25 @@ eleventyNavigation:
       </div>
 
       {# Image #}
-      <div class="drop-shadow-lg -mb-16">
+      <div class="drop-shadow-lg">
         <picture>
-          <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/home/hero-mockup.png" alt="Mockup" width="541" height="378">
+          <img aria-hidden="true" loading="lazy" decoding="async" src="" alt="" width="" height="">
         </picture>
       </div>
 
     </div>
 
-    {# Background #}
+    {# Hero Background #}
     <div class="bg-primary absolute inset-0">
       <picture class="w-full h-full overflow-hidden">
-        <source media="(min-width: 601px)" srcset="/assets/images/hero-background-image.webp">
-        <img class="absolute inset-0 object-cover w-full h-full" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/home/hero-background-image.webp" alt="Red Egg Digital" width="2560" height="1440">
+        {# Mobile BG Image#}
+        <source media="(max-width: 600px)" srcset="">
+        {# Desktop BG Image#}
+        <source media="(min-width: 601px)" srcset="">
+        <img class="absolute inset-0 object-cover w-full h-full" aria-hidden="true" loading="lazy" decoding="async" src="" alt="" aria-hidden="true">
       </picture>
       {# Overlay #}
       <div class="bg-gradient-to-r from-primary to-primary/85 absolute inset-0 w-full h-full"></div>
-    </div>
-  </section>
-
-  {# ===================================================================== #}
-  {#                          Services Section                             #}
-  {# ===================================================================== #}
-
-  <section class="px-gutter py-section-default bg-gradient-to-b ">
-    <div class="max-w-container-default mx-auto">
-
-      <div class="flex flex-col items-center gap-4 text-center">
-        <h2 class="text-h2">Services</h2>
-        <p>Everything you need for your law firm to thrive.</p>
-      </div>
-
-      <div class="lg:grid-cols-3 grid gap-4 mt-8">
-        <div class="p-4 bg-gray-200">
-          <h3 class="text-h3 text-lg">Websites</h3>
-          <p>Showcase your firm and connect with your prospects with a website that is optimized for conversions. </p>
-        </div>
-        <div class="p-4 bg-gray-200">
-          <h3 class="text-h3 text-lg">SEO</h3>
-          <p>Rank higher on Google, build your reputation, and gain more exposure locally or nationwide. All without breaking the bank on ads.</p>
-        </div>
-        <div class="p-4 bg-gray-200">
-          <h3 class="text-h3 text-lg">Social Media</h3>
-          <p>Drive website traffic, build loyalty, and attract more clients. Amplify your marketing efforts with social media. All done for you.</p>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  {# ===================================================================== #}
-  {#                           Better Websites                             #}
-  {# ===================================================================== #}
-
-  <section class="px-gutter py-section-default bg-light">
-    <div class="max-w-container-default lg:grid-cols-2 gap-y-6 gap-x-16 grid mx-auto">
-
-      <div class="min-h-40 h-full bg-gray-200"></div>
-
-      <div class="flex flex-col gap-4">
-        <h2 class="text-h2">Better Websites</h2>
-        <p>Every detail is hard-coded to ensure top performance and compliance with Google's Webmaster Guidelines, driving more visitors to your site and more revenue to your firm. All edits are done for you and support is provided 24/7.</p>
-
-        <div class="lg:grid-cols-2 grid gap-4">
-          <div class="">
-            <div class="flex items-center gap-2">
-              <div class="w-4 h-4 bg-black"></div>
-              <h3 class="text-h3 text-lg">Website Security Guarantee</h3>
-            </div>
-            <p>Hardcoded and hosted on a dedicated server. Sit back and rest assured that your website will be secure and available 24/7 without fear of any hacking whatsoever.</p>
-          </div>
-          <div class="">
-            <div class="flex items-center gap-2">
-              <div class="w-4 h-4 bg-black"></div>
-              <h3 class="text-h3 text-lg">Better Designs</h3>
-            </div>
-            <p>Limitless, Flexible, and Optimized for conversions. There is nothing that we cannot design. Give us the content, and we'll bring it to life.</p>
-          </div>
-          <div class="">
-            <div class="flex items-center gap-2">
-              <div class="w-4 h-4 bg-black"></div>
-              <h3 class="text-h3 text-lg">Perfect Performance Scores</h3>
-            </div>
-            <p>Zero bloat, zero waste, and built with purpose. All of our websites get perfect 98-100 speed scores when tested with Google's page speed tool.</p>
-          </div>
-          <div class="">
-            <div class="flex items-center gap-2">
-              <div class="w-4 h-4 bg-black"></div>
-              <h3 class="text-h3 text-lg">Satisfaction Guarantee</h3>
-            </div>
-            <p>We stand by our work. If you aren't satisfied, you get your money back and the contract is canceled. </p>
-          </div>
-          <div class="">
-            <div class="flex items-center gap-2">
-              <div class="w-4 h-4 bg-black"></div>
-              <h3 class="text-h3 text-lg">Unmatched Support</h3>
-            </div>
-            <p>Call or text anytime, no phone trees or robots. When you call,  you get me - the owner and lead developer.</p>
-          </div>
-          <div class="">
-            <div class="flex items-center gap-2">
-              <div class="w-4 h-4 bg-black"></div>
-              <h3 class="text-h3 text-lg">Better SEO</h3>
-            </div>
-            <p>No gimmicks, no shortcuts, no nonsense. We break down SEO in simple terms, explain how it works, and show you exactly what we'll do to help your firm rank higher.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  {# ===================================================================== #}
-  {#                            Why Choose Us                              #}
-  {# ===================================================================== #}
-
-  <section class="px-gutter py-section-default bg-dark text-light">
-    <div class="max-w-container-default lg:grid-cols-2 gap-y-6 gap-x-16 grid mx-auto">
-
-      <div class="flex flex-col gap-4">
-
-        <h2 class="text-h2">Why Choose Us</h2>
-        <p>Here at Red Egg Digital, we count in hundreds. Which means hundreds of hours were spent researching hundreds of the top-ranking websites. All of our strategies, operating procedures, and blueprints are based on only what the top law websites are doing.</p>
-
-        <div>“Absorb what is useful. Discard what is not. Add what is uniquely your own.” - Bruce Lee</div>
-
-        <p>Whether you're a solo firm looking to establish yourself in your local market, or a multi-office firm looking to expose yourself nationwide, we can help your firm to the next level. You can remove all your worries and doubts with us because we have solid evidence that we are who we say we are.</p>
-
-        <p>When you choose us, you can be assured that every service you render contains zero guesswork and is 100% evidence-based on the top law websites.</p>
-
-      </div>
-
-      <div class="min-h-40 h-full bg-gray-200"></div>
-    </div>
-  </section>
-
-  {# ===================================================================== #}
-  {#                     Your Vision, Our Commitment                       #}
-  {# ===================================================================== #}
-
-  <section class="px-gutter py-section-default text-dark">
-    <div class="max-w-container-default lg:grid-cols-2 gap-y-6 gap-x-16 grid mx-auto">
-
-      <div class="min-h-40 h-full bg-gray-200"></div>
-
-      <div class="flex flex-col gap-4">
-
-        <h2 class="text-h2">Your Vision, Our Commitment</h2>
-
-        <p>Hello, I'm Angelo Mendoza. The proud owner and lead developer of Red Egg Digital. I started building websites half a decade ago and I've had the privilege of collaborating with countless law firms across North America. But here's the real kicker… </p>
-
-        <p>I haven't just sat behind a screen watching free tutorials and getting easy certificates like your average Fiverr or Upwork developer has been doing. </p>
-
-        <p>I've actually put in the work spending hundreds of hours scrolling through real-world data found in hundreds of the top law websites, obsessing over each detail down to the last pixel, reading through paragraph after paragraph, analyzing thousands of keywords, just to find out what really makes a website good. </p>
-
-        <p>After all that work, I have acquired undeniable evidence that gives me the confidence and ability to make you a really good website, without all of the guesswork that commonly comes packaged with the services from your average website guy.</p>
-
-        <p>But what makes a website good? Is it the design? The animations? The features? Well, you can get that with any old average website. </p>
-
-        <p>Now let me ask you this: what if you had all of that …along with up to $11,480 worth of traffic to your website, without spending that amount on advertising? Would you consider that a good website? Because that is what the top websites look like, and that is what you will get.</p>
-
-        <p>So scratch that. I don't just create good websites. I take law firms to new heights. From the first brainstorming call to the website launch, my focus is on delivering the best results in the industry. </p>
-
-        <p>That's not just a claim, it's my promise.</p>
-
-        <p>Let's connect and explore how we can transform your vision into a thriving reality, and how I can keep my promise to the legal industry.</p>
-
-      </div>
-
-    </div>
-  </section>
-
-  {# ===================================================================== #}
-  {#                                 Pricing                               #}
-  {# ===================================================================== #}
-
-  <section class="px-gutter py-section-default bg-primary text-light">
-    <div class="max-w-container-default gap-y-6 gap-x-16 flex flex-col mx-auto">
-
-      <div class="flex flex-col gap-4">
-
-        <h2 class="text-h2">Pricing</h2>
-
-        <p>At Red Egg Digital, our mission is to build lasting partnerships and help your practice grow over time. Which is why all of our plans are designed for the long-term.</p>
-
-      </div>
-
-      <div class="lg:grid-cols-3 grid gap-4">
-
-        {# ===== Basic Plan ===== #}
-        <div class="bg-dark flex flex-col p-4">
-          <h3 class="text-h3 text-2xl">Basic Plan</h3>
-          <ul>
-            <li>Design and Development</li>
-            <li>Hosting</li>
-            <li>5 Primary Pages</li>
-          </ul>
-
-          <div class="mt-4">
-            <div>
-              <strong>Bonus</strong>: Evergreen Package</div>
-            <ul>
-              <li>Unlimited Edits</li>
-              <li>Lifetime Updates</li>
-              <li>24/7 Support</li>
-            </ul>
-            <div>
-              <strong>Bonus</strong>: Website Boosts Package</div>
-            <ul>
-              <li>Performance Optimizations</li>
-              <li>Optimized & Ready for SEO</li>
-            </ul>
-          </div>
-
-          <div class="pt-10 mt-auto">
-            <span class="text-h3">$200</span>
-            <span>/ month</span>
-          </div>
-          <p></p>
-        </div>
-
-        {# ===== Silver Egg Plan ===== #}
-        <div class="bg-dark flex flex-col p-4">
-          <h3 class="text-h3 text-lg">Standard Plan</h3>
-
-          <div>
-            <ul>
-              <li>Everything in Basic</li>
-              <li>20 Primary Pages</li>
-            </ul>
-          </div>
-
-          <div class="mt-4">
-            <div>
-              <strong>Bonus</strong>: SEO Package</div>
-            <div>
-              <strong>Bonus</strong>: Content Creation Package</div>
-            <div>
-              <strong>Bonus</strong>: Social Media Package</div>
-          </div>
-
-          <div class="pt-10 mt-auto">
-            <span class="text-h3">$500</span>
-            <span>/ month</span>
-          </div>
-          <p></p>
-        </div>
-
-        {# ===== Golden Egg Plan ===== #}
-        <div class="bg-dark flex flex-col p-4">
-          <h3 class="text-h3 text-lg">VIP Plan</h3>
-          <ul>
-            <li>Everything in Standard</li>
-            <li>Unlimited Primary Pages</li>
-          </ul>
-
-          <div class="mt-4">
-            <div>
-              <strong>Bonus</strong>: SEO Package Plus</div>
-            <div>
-              <strong>Bonus</strong>: Content Creation Package Plus</div>
-            <div>
-              <strong>Bonus</strong>: Social Media Package Plus</div>
-          </div>
-
-          <div class="pt-10 mt-auto">
-            <span class="text-h3">$5000</span>
-            <span>/ month</span>
-          </div>
-          <p></p>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  {# ===================================================================== #}
-  {#                     Frequently Asked Questions                        #}
-  {# ===================================================================== #}
-
-  <section class="px-gutter py-section-default">
-    <div class="max-w-container-default gap-y-6 gap-x-16 flex flex-col mx-auto">
-
-      <div class="flex flex-col gap-4">
-
-        <h2 class="text-h2">Frequently Asked Questions</h2>
-
-        <div class="flex flex-col gap-4">
-          <div>
-            <h3 class="text-h3 text-lg">What services does Red Egg Digital offer?</h3>
-            <p>Red Egg Digital is your go-to full-service web design partner. Our services include website design using our ULTIMATE TESTED BLUEPRINT, development, hosting, maintenance, and strategic online marketing solutions such as SEO and social media management.</p>
-          </div>
-          <div>
-            <h3 class="text-h3 text-lg">How does the website design process work with Red Egg Digital?</h3>
-            <p>Our website design process is a collaborative journey. We begin by understanding your vision, and then our team creates a strategy for you. From conceptualization to launch, we ensure transparency and client involvement every step of the way.</p>
-          </div>
-          <div>
-            <h3 class="text-h3 text-lg">How long does it take to design a website?</h3>
-            <p>The timeline varies based on the project's complexity. We prioritize quality and effectiveness, ensuring your website meets and exceeds expectations within a reasonable timeframe. However, if we are speaking in actual time? We'd get it done between 3-4 weeks.</p>
-          </div>
-          <div>
-            <h3 class="text-h3 text-lg">Can you help me update my existing website?</h3>
-            <p>Absolutely! We specialize in refreshing and updating existing websites.</p>
-          </div>
-          <div>
-            <h3 class="text-h3 text-lg">Do you offer website hosting services?</h3>
-            <p>Yes, we do, and it comes packaged in your plan when you get a website with us. With our dedicated servers, we guarantee a secure and reliable online presence for your website. If you have any problems, you can contact us directly with our 24/7 support.</p>
-          </div>
-          <div>
-            <h3 class="text-h3 text-lg">How Do You Ensure My Website Is Optimized for Search Engines?</h3>
-            <p>Optimizing for search engines is ingrained in our process. From strategic keyword placement to responsive design, we employ best practices to ensure your website ranks high and attracts the right audience.</p>
-          </div>
-          <div>
-            <h3 class="text-h3 text-lg">How Do I Get Started with Red Egg Digital?</h3>
-            <p>Getting started is easy! Contact us to schedule an initial consultation. We'll discuss your goals, outline a plan, and embark on the journey together to transform your firm.</p>
-          </div>
-        </div>
-      </div>
-
     </div>
   </section>
 
