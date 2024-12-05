@@ -32,7 +32,7 @@
       </div>
 
       {# Text #}
-      <div class="flex flex-col gap-4">
+      <div class="lg:items-start md:text-center lg:text-start flex flex-col items-center gap-4">
         <h2 class="text-h2">Image + Text, Columned</h2>
         <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, mollitia. Perspiciatis reprehenderit quam excepturi vero, voluptatum alias nulla esse magni quos sit ducimus quia ea sequi soluta quidem libero. Aliquam.</p>
 
