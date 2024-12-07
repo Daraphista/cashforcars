@@ -88,27 +88,19 @@ eleventyNavigation:
           <a href="https://www.cashforcars.com/instaquote?lead-source=homepage">Get My Offer</a>
         </div>
       </div>
-
-      {# Image #}
-      <div class="drop-shadow-lg">
-        <picture>
-          <img aria-hidden="true" loading="lazy" decoding="async" src="" alt="" width="" height="">
-        </picture>
-      </div>
-
     </div>
 
     {# Hero Background #}
-    <div class="bg-primary absolute inset-0">
-      <picture class="w-full h-full overflow-hidden">
+    <div class="bg-primary absolute inset-0 overflow-hidden">
+      <picture class="absolute w-full h-full overflow-hidden">
         {# Mobile BG Image#}
-        <source media="(max-width: 600px)" srcset="">
+        <source media="(max-width: 600px)" srcset="/assets/images/home/hero.webp">
         {# Desktop BG Image#}
-        <source media="(min-width: 601px)" srcset="">
-        <img class="absolute inset-0 object-cover w-full h-full" aria-hidden="true" loading="lazy" decoding="async" src="" alt="" aria-hidden="true">
+        <source media="(max-width: 600px)" srcset="/assets/images/home/hero.webp">
+        <img class="object-cover w-full h-full" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/home/hero.webp" alt="" aria-hidden="true">
       </picture>
       {# Overlay #}
-      <div class="bg-gradient-to-r from-primary to-primary/85 absolute inset-0 w-full h-full"></div>
+      <div class="bg-gradient-to-r from-black absolute inset-0 w-full h-full"></div>
     </div>
   </section>
 
@@ -119,18 +111,42 @@ eleventyNavigation:
     <div class="max-w-container-default gap-y-8 gap-x-16 flex flex-col mx-auto">
       {# Cards #}
       <div class="lg:grid-cols-3 md:grid-cols-2 grid gap-8 text-center">
-        <div class="flex flex-col gap-2">
+        <div class="flex flex-col items-center gap-2">
+          <picture class="">
+            {# Mobile Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/process-1.webp">
+            {# Desktop Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/process-1.webp">
+            <img class="" width="164" height="121" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/home/process-1.webp" alt="" aria-hidden="true">
+          </picture>
+
           <h3 class="text-h3">Get an Offer</h3>
           <p>Find Your Car's Value Online or Call <a href="tel:+18886574599">
               <strong>1-888-420-3790</strong>
             </a>
           </p>
         </div>
-        <div class="flex flex-col gap-2">
+        <div class="flex flex-col items-center gap-2">
+          <picture class="">
+            {# Image Image #}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/process-2.webp">
+            {# Desktop Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/process-2.webp">
+            <img class="" width="174" height="121" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/home/process-2.webp" alt="" aria-hidden="true">
+          </picture>
+
           <h3 class="text-h3">Accept & Set Up Pickup</h3>
           <p>Accept Our Offer & Schedule a Convenient Pickup Time</p>
         </div>
-        <div class="flex flex-col gap-2">
+        <div class="flex flex-col items-center gap-2">
+          <picture class="">
+            {# Image Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/process-3.webp">
+            {# Desktop Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/process-3.webp">
+            <img class="" width="177" height="121" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/home/process-3.webp" alt="" aria-hidden="true">
+          </picture>
+
           <h3 class="text-h3">Get Paid</h3>
           <p>We Deliver Your Payment When We Pickup Your Car.</p>
         </div>
@@ -155,9 +171,12 @@ eleventyNavigation:
 
       {# Image #}
       <div>
-        <picture>
-          <source media="(min-width: 601px)" srcset="">
-          <img src="" width="" height="" alt="">
+        <picture class="">
+          {# Image Image#}
+          <source media="(min-width: 601px)" srcset="/assets/images/home/we-buy-any-car.webp">
+          {# Desktop Image#}
+          <source media="(min-width: 601px)" srcset="/assets/images/home/we-buy-any-car.webp">
+          <img class="" width="435" height="394" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/home/we-buy-any-car.webp" alt="" aria-hidden="true">
         </picture>
       </div>
     </div>
@@ -170,9 +189,12 @@ eleventyNavigation:
     <div class="max-w-container-default lg:grid-cols-2 gap-y-6 gap-x-16 grid mx-auto">
       {# Image #}
       <div>
-        <picture>
-          <source media="(min-width: 601px)" srcset="">
-          <img src="" width="" height="" alt="">
+        <picture class="">
+          {# Image Image#}
+          <source media="(min-width: 601px)" srcset="/assets/images/home/cash-for-cars-locations.webp">
+          {# Desktop Image#}
+          <source media="(min-width: 601px)" srcset="/assets/images/home/cash-for-cars-locations.webp">
+          <img class="" width="435" height="394" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/home/cash-for-cars-locations.webp" alt="" aria-hidden="true">
         </picture>
       </div>
 
@@ -206,9 +228,12 @@ eleventyNavigation:
 
       {# Image #}
       <div>
-        <picture>
-          <source media="(min-width: 601px)" srcset="">
-          <img src="" width="" height="" alt="">
+        <picture class="">
+          {# Image Image#}
+          <source media="(min-width: 601px)" srcset="/assets/images/home/guaranteed-quotes.webp">
+          {# Desktop Image#}
+          <source media="(min-width: 601px)" srcset="/assets/images/home/guaranteed-quotes.webp">
+          <img class="" width="435" height="394" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/home/guaranteed-quotes.webp" alt="" aria-hidden="true">
         </picture>
       </div>
 
@@ -253,22 +278,64 @@ eleventyNavigation:
 
       {# Cards #}
       <div class="lg:grid-cols-3 md:grid-cols-2 grid gap-8 text-center">
-        <div class="flex flex-col gap-2">
-          <h3 class="text-h3">cars</h3>
+        <div class="flex flex-col items-center gap-2">
+          <picture class="">
+            {# Image Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/car.webp">
+            {# Desktop Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/car.webp">
+            <img class="" width="112" height="68" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/home/car.webp" alt="" aria-hidden="true">
+          </picture>
+          <h3 class="text-h3">Cars</h3>
         </div>
-        <div class="flex flex-col gap-2">
+        <div class="flex flex-col items-center gap-2">
+          <picture class="">
+            {# Image Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/suv.webp">
+            {# Desktop Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/suv.webp">
+            <img class="" width="112" height="68" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/home/suv.webp" alt="" aria-hidden="true">
+          </picture>
           <h3 class="text-h3">SUVs</h3>
         </div>
-        <div class="flex flex-col gap-2">
+        <div class="flex flex-col items-center gap-2">
+          <picture class="">
+            {# Image Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/bike.webp">
+            {# Desktop Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/bike.webp">
+            <img class="" width="112" height="68" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/home/bike.webp" alt="" aria-hidden="true">
+          </picture>
           <h3 class="text-h3">Motorcycles</h3>
         </div>
-        <div class="flex flex-col gap-2">
+        <div class="flex flex-col items-center gap-2">
+          <picture class="">
+            {# Image Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/boat.webp">
+            {# Desktop Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/boat.webp">
+            <img class="" width="112" height="68" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/home/boat.webp" alt="" aria-hidden="true">
+          </picture>
           <h3 class="text-h3">Boats</h3>
         </div>
-        <div class="flex flex-col gap-2">
+        <div class="flex flex-col items-center gap-2">
+          <picture class="">
+            {# Image Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/truck.webp">
+            {# Desktop Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/truck.webp">
+            <img class="" width="112" height="68" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/home/truck.webp" alt="" aria-hidden="true">
+          </picture>
           <h3 class="text-h3">Trucks</h3>
         </div>
-        <div class="flex flex-col gap-2">
+        <div class="flex flex-col items-center gap-2">
+          <picture class="">
+            {# Image Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/rv.webp">
+            {# Desktop Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/rv.webp">
+            <img class="" width="112" height="68" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/home/rv.webp" alt="" aria-hidden="true">
+          </picture>
           <h3 class="text-h3">RVs</h3>
         </div>
       </div>
@@ -282,21 +349,12 @@ eleventyNavigation:
     <div class="max-w-container-default lg:grid-cols-2 gap-y-6 gap-x-16 grid mx-auto">
       {# Image #}
       <div>
-        <picture>
-          <source media="(min-width: 601px)" srcset="">
-          <img src="" width="" height="" alt="">
-        </picture>
+        <iframe allow="autoplay; title=" cashforcars="" videos"="" encrypted-media"="" allowfullscreen="" frameborder="0" height="300" loading="lazy" src="https://www.youtube.com/embed/Y1nTFxIOC8M?si=SHjFzVYHKgZg2V1w" width="550"></iframe>
       </div>
 
       {# Text #}
       <div class="flex flex-col gap-4">
-        <h2 class="text-h2">Image + Text, Columned</h2>
-        <p class="max-w-prose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, mollitia. Perspiciatis reprehenderit quam excepturi vero, voluptatum alias nulla esse magni quos sit ducimus quia ea sequi soluta quidem libero. Aliquam.</p>
-
-        <div class="flex gap-4 mt-4">
-          <a href="/contact" class="button">Get Started</a>
-          <a href="/about" class="button">Learn More</a>
-        </div>
+        <iframe title="Customer reviews powered by Trustpilot" loading="auto" src="https://widget.trustpilot.com/trustboxes/53aa8807dec7e10d38f59f32/index.html?businessunitId=541341d100006400057a4a94&amp;templateId=53aa8807dec7e10d38f59f32#fontFamily=Hind%20Siliguri&amp;locale=en-US&amp;styleHeight=150px&amp;styleWidth=100%25&amp;theme=light" style="position: relative; height: 150px; width: 100%; border-style: none; display: block; overflow: hidden;"></iframe>
       </div>
     </div>
   </section>
@@ -314,16 +372,31 @@ eleventyNavigation:
       {# Cards #}
       <div class="lg:grid-cols-3 md:grid-cols-2 grid gap-8">
         <div class="flex flex-col gap-2">
-          <h3 class="text-h3">Recent Purchases</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, exercitationem?</p>
+          <picture class="">
+            {# Image Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/recent-purchase-1.webp">
+            {# Desktop Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/recent-purchase-1.webp">
+            <img class="" width="392" height="308" loading="lazy" decoding="async" src="/assets/images/home/recent-purchase-1.webp" alt="Chevrolet Truck" aria-hidden="true">
+          </picture>
         </div>
         <div class="flex flex-col gap-2">
-          <h3 class="text-h3">Card Heading</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, exercitationem?</p>
+          <picture class="">
+            {# Image Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/recent-purchase-2.webp">
+            {# Desktop Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/recent-purchase-2.webp">
+            <img class="" width="392" height="308" loading="lazy" decoding="async" src="/assets/images/home/recent-purchase-2.webp" alt="Damaged SUV" aria-hidden="true">
+          </picture>
         </div>
         <div class="flex flex-col gap-2">
-          <h3 class="text-h3">Card Heading</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, exercitationem?</p>
+          <picture class="">
+            {# Image Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/recent-purchase-3.webp">
+            {# Desktop Image#}
+            <source media="(min-width: 601px)" srcset="/assets/images/home/recent-purchase-3.webp">
+            <img class="" width="392" height="308" loading="lazy" decoding="async" src="/assets/images/home/recent-purchase-3.webp" alt="Damaged BMW Sedan" aria-hidden="true">
+          </picture>
         </div>
       </div>
 
