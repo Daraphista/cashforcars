@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-      heading: ["Batangas", "serif"],
-      "body": ['"DM Sans"', "sans-serif"],
+      heading: ["sans-serif"],
+      "body": ["sans-serif"],
     },
       colors: {
       primary: "#1B6634",
