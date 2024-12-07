@@ -350,16 +350,33 @@ eleventyNavigation:
   {# ===================================================================== #}
   {#                        Image + Text, Columned                        #}
   {# ===================================================================== #}
-  <section class="bg-secondaryLight px-gutter py-section-default">
+  <section class="bg-secondaryLight text-primary px-gutter py-section-default font-bold">
     <div class="max-w-container-default lg:grid-cols-2 gap-y-6 gap-x-16 grid mx-auto">
-      {# Image #}
-      <div>
-        <iframe class="hidden" width="560" height="315" src="https://www.youtube.com/embed/Y1nTFxIOC8M?si=0WdDSIHBcvLSb11F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      {# Youtube Embed #}
+      <div class="yt-embed flex flex-col w-full h-full gap-4">
+        <picture class="thumbnail">
+          {# Image Image#}
+          <source media="(min-width: 601px)" srcset="/assets/images/home/yt-embed-placeholder.webp">
+          {# Desktop Image#}
+          <source media="(min-width: 601px)" srcset="/assets/images/home/yt-embed-placeholder.webp">
+          <img class="" width="691" height="374" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/home/yt-embed-placeholder.webp" alt="" aria-hidden="true">
+        </picture>
+
+        <a class="hover:underline" target="_blank" href="https://www.cashforcars.com/about-us/cash-for-cars-videos/">View all videos ></a>
       </div>
 
-      {# Text #}
-      <div class="flex flex-col gap-4">
-        <iframe class="hidden" title="Customer reviews powered by Trustpilot" loading="auto" src="https://widget.trustpilot.com/trustboxes/53aa8807dec7e10d38f59f32/index.html?businessunitId=541341d100006400057a4a94&amp;templateId=53aa8807dec7e10d38f59f32#fontFamily=Hind%20Siliguri&amp;locale=en-US&amp;styleHeight=150px&amp;styleWidth=100%25&amp;theme=light" style="position: relative; height: 150px; width: 100%; border-style: none; display: block; overflow: hidden;"></iframe>
+      {# Trustpilot Link #}
+      <div class=" flex flex-col items-center justify-center gap-4">
+        <a target="_blank" href="https://www.trustpilot.com/review/cashforcars.com">
+          <picture class="thumbnail">
+            {# Image Image#}
+            <source media="(min-width: 601px)" srcset="/assets/svgs/trustpilot.svg">
+            {# Desktop Image#}
+            <source media="(min-width: 601px)" srcset="/assets/svgs/trustpilot.svg">
+            <img class="" width="255" height="117" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/trustpilot.svg" alt="" aria-hidden="true">
+          </picture>
+        </a>
+        <a target="_blank" class="hover:underline" href="https://www.trustpilot.com/review/cashforcars.com">View all reviews ></a>
       </div>
     </div>
   </section>
